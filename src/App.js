@@ -10,6 +10,7 @@ function App() {
             <img src={banner} alt="Velvet Room"/>
             <Presentation/>
             <Persona personaImg = "https://static.wikia.nocookie.net/megamitensei/images/0/0b/Jack_Frost_SMTV_Art.png"
+                     personaAlt= "Persona Jack Frost"
                      name="Jack Frost"
                      arcana="Magician"
                      level="14"/>
