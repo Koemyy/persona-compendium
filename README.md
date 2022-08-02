@@ -5,11 +5,10 @@ A project to put in practice my knowledge in React.
 ### Project Idea 💭
 My idea is create a compendium, where the user can register their demons.
 
-### Future Ideas
+### Future Ideas 📋
 - [ ] Add skills to your demon
 
-##
-Available Scripts
+### Available Scripts 👾
 
 In the project directory, you can run:
 
