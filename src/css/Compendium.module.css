@@ -1,0 +1,24 @@
+#compendium h2 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+#compendium p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+#compendium {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+
+
+
