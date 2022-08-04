@@ -1,10 +1,13 @@
-.personaName {
+#persona input {
     font-size: 1.5rem;
-    color: #ffffff;
+    margin-top: 1rem;
+    color: #0b0626;
     line-height: 0.5;
+    width: 100px;
+    height: 25px;
 }
 
-.personaAttributes {
+#persona label {
     font-size: 1.1rem;
     color: #ffffff;
 }
@@ -12,7 +15,7 @@
 #persona {
     gap: 3rem;
     justify-content: space-around;
-    justify-items: auto;
+    justify-items: center;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
