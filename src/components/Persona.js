@@ -1,4 +1,5 @@
 import styles from '../css/Persona.module.css';
+import PropTypes from 'prop-types';
 
 function Persona({name, arcana, level, personaImg, personaAlt}) {
     return (
@@ -12,5 +13,11 @@ function Persona({name, arcana, level, personaImg, personaAlt}) {
         </div>
     )
 }
+
+Persona.propTypes = {
+    name: PropTypes.string.isRequired,
+    arcana: PropTypes.string.isRequired,
+    level: PropTypes.number.isRequired,
+};
 
 export default Persona;
