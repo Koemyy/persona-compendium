@@ -4,20 +4,31 @@ import PropTypes from 'prop-types';
 function Persona({name, arcana, level, personaImg, personaAlt}) {
     return (
         <div id={styles["persona"]}>
-            <img src={personaImg} alt={personaAlt}/>
-            <div>
-                <h2 className={styles.personaName}>Name: {name}</h2>
-                <p className={styles.personaAttributes}>Arcana: {arcana}</p>
-                <p className={styles.personaAttributes}>Level: {level}</p>
-            </div>
+            <form action="" method="post">
+                <div>
+                    <img src={personaImg} alt={personaAlt}/>
+                </div>
+                <div>
+                    <label>Name: </label>
+                    <input type={name}/>
+                </div>
+                <div>
+                    <label>Arcana: </label>
+                    <input type={arcana}/>
+                </div>
+                <div>
+                    <label>Level: </label>
+                    <input type={level}/>
+                </div>
+            </form>
         </div>
     )
 }
 
 Persona.propTypes = {
-    name: PropTypes.string.isRequired,
-    arcana: PropTypes.string.isRequired,
-    level: PropTypes.number.isRequired,
+    name: PropTypes.string,
+    arcana: PropTypes.string,
+    level: PropTypes.number,
 };
 
 export default Persona;
