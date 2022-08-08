@@ -1,4 +1,5 @@
 import styles from '../css/Presentation.module.css';
+import Button from './Button';
 
 function Presentation() {
     return (
@@ -13,7 +14,7 @@ function Presentation() {
                 <p>Feel free to interact and please give me some feedbacks :)</p>
                 <div className={styles.compendium}>
                     <p>Click here to see your demons, they missed you!</p>
-                    <button className={styles.btn}>Compendium</button>
+                    <Button text="Compendium"/>
                 </div>
             </div>
             <div>
