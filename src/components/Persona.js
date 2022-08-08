@@ -2,7 +2,7 @@ import styles from '../css/Persona.module.css';
 import PropTypes from 'prop-types';
 import {useState} from 'react';
 
-function Persona({name, arcana, level, personaImg, personaAlt}) {
+function Persona({personaImg, personaAlt}) {
     const [name, setName] = useState()
     const [arcana, setArcana] = useState()
     const [level, setLevel] = useState()
