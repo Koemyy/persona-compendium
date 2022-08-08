@@ -10,8 +10,8 @@ function App() {
             <Presentation/>
             <Divider/>
             <Compendium/>
-            <Persona personaImg = "https://static.wikia.nocookie.net/megamitensei/images/0/0b/Jack_Frost_SMTV_Art.png"
-                     personaAlt= "Persona Jack Frost"/>
+            <Persona personaImg="https://static.wikia.nocookie.net/megamitensei/images/0/0b/Jack_Frost_SMTV_Art.png"
+                     personaAlt="Persona Jack Frost"/>
         </div>
     );
 }
