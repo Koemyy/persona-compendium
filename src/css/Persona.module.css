@@ -1,9 +1,9 @@
 #persona input {
-    font-size: 1.5rem;
+    font-size: 15px;
     margin-top: 1rem;
     color: #0b0626;
     line-height: 0.5;
-    width: 100px;
+    width: 175px;
     height: 25px;
 }
 
@@ -19,4 +19,8 @@
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+#persona Button {
+    margin: 2rem auto;
 }
