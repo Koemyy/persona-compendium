@@ -6,6 +6,7 @@ function Compendium () {
             <div>
                 <h2>Compendium</h2>
                 <p>See your registred demons</p>
+                <p>You can register new ones too</p>
             </div>
         </div>
     )
