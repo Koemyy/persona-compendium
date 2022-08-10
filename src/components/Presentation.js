@@ -10,11 +10,12 @@ function Presentation() {
                     <h2>"This place exists between dream and reality, mind and matter."
                         —Igor</h2>
                 </div>
-                <p>Hey everyone, this is my first project in React, please ignore this horrible layout, I'm working on it. </p>
+                <p>Hey everyone, this is my first project in React, please ignore this horrible layout, I'm working on
+                    it. </p>
                 <p>Feel free to interact and please give me some feedbacks :)</p>
                 <div className={styles.compendium}>
                     <p>Click here to see your demons, they missed you!</p>
-                    <Button text="Compendium"/>
+                    <a href="#name"><Button text="Compendium"/></a>
                 </div>
             </div>
             <div>
