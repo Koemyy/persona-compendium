@@ -1,14 +1,22 @@
 import styles from '../css/Persona.module.css';
 import PropTypes from 'prop-types';
 import {useState} from 'react';
+import Button from './Button';
 
 function Persona({personaImg, personaAlt}) {
     const [name, setName] = useState()
     const [arcana, setArcana] = useState()
     const [level, setLevel] = useState()
+    // const [register, setRegister] = useState()
+
+    function btnClick (e) {
+        e.preventDefault();
+        console.log("teste");
+    }
+
     return (
         <div id={styles["persona"]}>
-            <form action="" method="post">
+            <form>
                 <div>
                     <img src={personaImg} alt={personaAlt}/>
                 </div>
@@ -23,6 +31,12 @@ function Persona({personaImg, personaAlt}) {
                 <div>
                     <label htmlFor="level">Level: </label>
                     <input id="level" name="level" onChange={(e) => setLevel(e.target.value)} type={level}/>
+                </div>
+                <div>
+                    <Button
+                        action={btnClick}
+                        text="Register"
+                    />
                 </div>
             </form>
         </div>

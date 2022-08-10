@@ -1,9 +1,9 @@
 import styles from '../css/Button.module.css';
 
-function Button (props) {
+function Button(props) {
     return (
-        <div id={styles["button"]} >
-        <button className={styles.btn}>{props.text}</button>
+        <div onClick={props.action} id={styles["button"]}>
+            <button className={styles.btn}>{props.text}</button>
         </div>
     )
 }
