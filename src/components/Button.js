@@ -3,7 +3,7 @@ import styles from '../css/Button.module.css';
 function Button(props) {
     return (
         <div onClick={props.action} id={styles["button"]}>
-            <button className={styles.btn}>{props.text}</button>
+            <button type="submit" className={styles.btn}>{props.text}</button>
         </div>
     )
 }
