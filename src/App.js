@@ -1,18 +1,20 @@
 import './App.css';
-import Presentation from './components/Presentation';
-import Persona from './components/Persona';
-import Compendium from './components/Compendium';
-import Divider from './components/Divider';
+import Home from './pages/Home';
+import NavBar from "./components/NavBar"
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import ErrorPage from "./components/ErrorPage";
+import Compendium from "./pages/Compendium";
 
 function App() {
     return (
-        <div>
-            <Presentation/>
-            <Divider/>
-            <Compendium/>
-            <Persona personaImg="https://static.wikia.nocookie.net/megamitensei/images/0/0b/Jack_Frost_SMTV_Art.png"
-                     personaAlt="Persona Jack Frost"/>
-        </div>
+        <Router>
+            <NavBar/>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/compendium" element={<Compendium/>}/>
+                <Route path="*" element={<ErrorPage/>}/>
+            </Routes>
+        </Router>
     );
 }
 
