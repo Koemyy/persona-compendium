@@ -1,5 +1,5 @@
 import styles from '../css/Presentation.module.css';
-import Button from './Button';
+import Button from '../components/Button';
 
 function Presentation() {
     return (
@@ -15,7 +15,9 @@ function Presentation() {
                 <p>Feel free to interact and please give me some feedbacks :)</p>
                 <div className={styles.compendium}>
                     <p>Click here to see your demons, they missed you!</p>
-                    <a href="#name"><Button text="Compendium"/></a>
+                    <a href="src/pages/Presentation#name">
+                        <Button text="Compendium"/>
+                    </a>
                 </div>
             </div>
             <div>

@@ -1,21 +1,20 @@
 import styles from '../css/Persona.module.css';
 import PropTypes from 'prop-types';
 import {useState} from 'react';
-import Button from './Button';
+import Button from '../components/Button';
 
 function Persona({personaImg, personaAlt}) {
     const [name, setName] = useState()
     const [arcana, setArcana] = useState()
     const [level, setLevel] = useState()
-    // const [register, setRegister] = useState()
-
-    function btnClick (e) {
-        e.preventDefault();
-        console.log("teste");
-    }
 
     return (
         <div id={styles["persona"]}>
+            <div>
+                <h2>Compendium</h2>
+                <p>See your registred demons</p>
+                <p>You can register new ones too</p>
+            </div>
             <form>
                 <div>
                     <img src={personaImg} alt={personaAlt}/>
@@ -34,7 +33,6 @@ function Persona({personaImg, personaAlt}) {
                 </div>
                 <div>
                     <Button
-                        action={btnClick}
                         text="Register"
                     />
                 </div>
