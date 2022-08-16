@@ -1,7 +1,9 @@
-import styles from '../css/Presentation.module.css';
+import styles from '../css/Home.module.css';
 import Button from '../components/Button';
+import {useNavigate} from 'react-router-dom';
 
-function Presentation() {
+function Home() {
+    let navigate = useNavigate;
     return (
         <div id={styles["homeBanner"]}>
             <div className={styles.content}>
@@ -15,9 +17,7 @@ function Presentation() {
                 <p>Feel free to interact and please give me some feedbacks :)</p>
                 <div className={styles.compendium}>
                     <p>Click here to see your demons, they missed you!</p>
-                    <a href="src/pages/Presentation#name">
-                        <Button text="Compendium"/>
-                    </a>
+                    <Button text="Compendium" action={navigate("/compendium")}/>
                 </div>
             </div>
             <div>
@@ -28,4 +28,4 @@ function Presentation() {
     )
 }
 
-export default Presentation;
+export default Home;
