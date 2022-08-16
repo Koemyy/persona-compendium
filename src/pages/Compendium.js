@@ -1,9 +1,9 @@
-import styles from '../css/Persona.module.css';
+import styles from '../css/Compendium.module.css';
 import PropTypes from 'prop-types';
 import {useState} from 'react';
 import Button from '../components/Button';
 
-function Persona({personaImg, personaAlt}) {
+function Compendium({personaImg, personaAlt}) {
     const [name, setName] = useState()
     const [arcana, setArcana] = useState()
     const [level, setLevel] = useState()
@@ -41,10 +41,10 @@ function Persona({personaImg, personaAlt}) {
     )
 }
 
-Persona.propTypes = {
+Compendium.propTypes = {
     name: PropTypes.string,
     arcana: PropTypes.string,
     level: PropTypes.number,
 };
 
-export default Persona;
+export default Compendium;
