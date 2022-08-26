@@ -4,10 +4,19 @@ import styles from "../css/Footer.module.css";
 function Footer() {
     return (
         <footer id={styles["footer"]}>
-            <ul>
-                <li><FaLinkedin/></li>
-                <li><FaGithub/></li>
-            </ul>
+            <div>
+                <ul>
+                    <a href="https://www.linkedin.com/in/francinepns/" target="_blank">
+                        <li><FaLinkedin/></li>
+                    </a>
+                    <a href="https://github.com/Koemyy" target="_blank">
+                        <li><FaGithub/></li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <p>Com ❤  por Francine Nogueira</p>
+            </div>
         </footer>
     )
 }
