@@ -15,7 +15,7 @@ function Footer() {
                 </ul>
             </div>
             <div>
-                <p>Com ❤  por Francine Nogueira</p>
+                <p>Com ❤ por Francine Nogueira</p>
             </div>
         </footer>
     )
