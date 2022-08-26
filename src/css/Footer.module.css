@@ -1,0 +1,19 @@
+#footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+#footer li {
+    margin: 1em;
+}
+
+#footer svg {
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+}
