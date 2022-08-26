@@ -1,6 +1,32 @@
 #navBar {
     display: flex;
     align-items: center;
-    justify-content: center;
     color: white;
+    background-color: #181818;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 1rem;
 }
+#navBar img {
+    width: 50px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+#navBar a {
+    background-color: #181818;
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+
+#navBar div {
+    background-color: #181818;
+    box-sizing: border-box;
+}
+
+#navBar a:hover {
+    color: rgba(92, 89, 249, 0.75);
+}
+
