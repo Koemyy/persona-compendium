@@ -1,0 +1,25 @@
+{
+  "projects": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Lovers"
+    },
+    {
+      "id": 2,
+      "name": "Death"
+    },
+    {
+      "id": 1,
+      "name": "Devil"
+    },
+    {
+      "id": 1,
+      "name": "Empress"
+    },
+    {
+      "id": 1,
+      "name": "Emperor"
+    }
+  ]
+}
