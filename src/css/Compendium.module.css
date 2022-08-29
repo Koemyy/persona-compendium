@@ -1,15 +1,10 @@
-#persona input {
-    font-size: 15px;
-    margin-top: 1rem;
-    color: #0b0626;
+#persona select {
     line-height: 0.5;
     width: 175px;
     height: 25px;
-}
-
-#persona label {
-    font-size: 1.1rem;
-    color: #ffffff;
+    margin-top: 1rem;
+    font-size: 15px;
+    color: #ede7e7;
 }
 
 #persona {
