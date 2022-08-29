@@ -1,6 +1,8 @@
-function ErrorPage () {
+import styles from '../css/PageError.module.css'
+
+function ErrorPage() {
     return (
-        <div>
+        <div id={styles["pageError"]}>
             <p>Error!</p>
             <p>Page Not Found :(</p>
         </div>
