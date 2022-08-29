@@ -1,6 +1,7 @@
 import styles from '../css/Home.module.css';
 import Button from '../components/Button';
 import {Link} from "react-router-dom";
+
 function Home() {
     return (
         <div id={styles["homeBanner"]}>
