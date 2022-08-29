@@ -6,10 +6,10 @@ function Footer() {
         <footer id={styles["footer"]}>
             <div>
                 <ul>
-                    <a href="https://www.linkedin.com/in/francinepns/" target="_blank">
+                    <a href="https://www.linkedin.com/in/francinepns/" target="_blank" rel="noreferrer">
                         <li><FaLinkedin/></li>
                     </a>
-                    <a href="https://github.com/Koemyy" target="_blank">
+                    <a href="https://github.com/Koemyy" target="_blank" rel="noreferrer">
                         <li><FaGithub/></li>
                     </a>
                 </ul>
