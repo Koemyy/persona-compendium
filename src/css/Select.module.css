@@ -1,0 +1,13 @@
+#select label {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+#select select {
+    font-size: 15px;
+    margin-top: 1rem;
+    color: #ede7e7;
+    line-height: 0.5;
+    width: 175px;
+    height: 25px;
+}
