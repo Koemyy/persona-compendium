@@ -1,6 +1,6 @@
 {
-  "projects": [],
-  "categories": [
+  "personas": [],
+  "arcanas": [
     {
       "id": 1,
       "name": "Lovers"
@@ -10,15 +10,15 @@
       "name": "Death"
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Devil"
     },
     {
-      "id": 1,
+      "id": 4,
       "name": "Empress"
     },
     {
-      "id": 1,
+      "id": 5,
       "name": "Emperor"
     }
   ]
