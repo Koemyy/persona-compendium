@@ -5,7 +5,7 @@ import Select from '../components/Select'
 import {useState, useEffect} from 'react';
 import {useNavigate} from 'react-router-dom'
 
-function Compendium({handleSubmit, btnText, projectData}) {
+function Compendium({projectData}) {
     const [project, setProject] = useState(projectData || {})
     const [arcanas, setArcanas] = useState([])
 
@@ -56,7 +56,7 @@ function Compendium({handleSubmit, btnText, projectData}) {
         })
             .then((resp) => resp.json())
             .then((data) => {
-                navigate('/compendium', { message: 'Projeto criado com sucesso!' })
+                navigate('/personas', { message: 'Persona sucessfully registred!' })
             })
     }
 
